@@ -1,0 +1,50 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+.about,
+.experience,
+.projects,
+.contact,
+.log{
+    padding:10px 15px;
+    font-size: xx-large;
+}
+.log {
+    font-weight: bolder;
+}
+article {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    flex-direction: column;
+}
+.container2 {
+    display: flex;
+    width: 24%;
+    justify-content: space-around;
+}
+.personal_photo, 
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+h5,
+h2,
+h3 {
+    margin: 2px;
+}
+.container3 {
+    margin: 20px 2px;
+}
