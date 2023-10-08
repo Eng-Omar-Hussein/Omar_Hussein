@@ -1,6 +1,9 @@
+
 nav {
     display: flex;
     justify-content: space-around;
+    font-size: x-large;
+    text-transform: capitalize;
 }
 .container1 {
     display: flex;
@@ -12,21 +15,21 @@ nav {
 .contact,
 .log{
     padding:10px 15px;
-    font-size: xx-large;
 }
 .log {
-    font-weight: bolder;
+    font-size: x-large;
 }
 article {
     display: flex;
     align-items: center;
     padding-top: 10px;
     flex-direction: column;
+    text-transform: capitalize;
 }
 .container2 {
     display: flex;
-    width: 24%;
-    justify-content: space-around;
+    width: 100%;
+    justify-content: center;
 }
 .personal_photo, 
 .info {
@@ -34,11 +37,15 @@ article {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 25px;
 }
 img {
     border-radius: 50%;
     width: 250px;
     height: 250px;
+    background-image: url("images/Omar\ Hussein\ Abd\ Elradi\ Mohammed.jpg");
+    background-size: cover;
+    background-position: top;
 }
 h5,
 h2,
@@ -47,4 +54,61 @@ h3 {
 }
 .container3 {
     margin: 20px 2px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+ul,
+svg.menu_icon,
+svg.menu_icon_remove{
+    display: none;
+    margin-top: 10px;
+}
+li{
+    list-style: none;
+    padding: 10px 30px;
+    transition-duration: 500ms;
+}
+button {
+    padding: 12px 17px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background: transparent;
+}
+button[type="Contact info"] {
+    background-color: black;
+    color: white;
+}
+.container4 {
+    display: inherit;
+}
+@media(max-width: 756px){
+    nav{
+        font-size: larger;
+    }
+    svg.menu_icon{
+        display: block;
+        font-size: larger;
+    }
+    ul{
+        direction: rtl;
+        position: absolute;
+        text-align: left;
+        right: 0;
+        top: 35px;
+        background-color: #e4e2fff2;
+        border-radius: 5px;
+        border-top-left-radius: 25px;
+        
+    }
+    .container1,
+    svg.menu_icon_remove {
+        display: none;
+        font-size: larger;
+    }
+    .container2 {
+        flex-direction: column;
+    }
 }
