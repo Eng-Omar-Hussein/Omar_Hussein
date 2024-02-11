@@ -31,14 +31,15 @@ document
     window.open("#Section6", "_self");
   });
 document.querySelectorAll('button[type="GitHub"]').forEach(function (elem) {
+    var GitHub = elem.getAttribute('href');
   elem.addEventListener("click", () => {
-    window.open("https://github.com/Eng-Omar-Hussein", "_blank");
+    window.open(GitHub, "_self");
   });
 });
 
 document.querySelectorAll('button[type="blog"]').forEach(function (elem) {
-  var blog = "blog.html";
+  var blog = elem.getAttribute('href');
   elem.addEventListener("click", () => {
-    window.open(blog, "_blank");
+    window.open(blog, "_self");
   });
 });
