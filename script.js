@@ -31,15 +31,23 @@ document
     window.open("#Section6", "_self");
   });
 document.querySelectorAll('button[type="GitHub"]').forEach(function (elem) {
-    var GitHub = elem.getAttribute('href');
+  var GitHub = elem.getAttribute("href");
   elem.addEventListener("click", () => {
     window.open(GitHub, "_self");
   });
 });
 
 document.querySelectorAll('button[type="blog"]').forEach(function (elem) {
-  var blog = elem.getAttribute('href');
+  var blog = elem.getAttribute("href");
   elem.addEventListener("click", () => {
     window.open(blog, "_self");
   });
+});
+
+document.querySelectorAll(".poster").forEach(function (elem) {
+  var url = elem.getAttribute("href");
+  var width = elem.getAttribute("width");
+  var height = elem.getAttribute("height");
+  elem.style.backgroundImage = "url(" + url + ")";
+  elem.style.backgroundPosition = width + " " + height;
 });

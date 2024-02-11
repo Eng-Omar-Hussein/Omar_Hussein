@@ -72,7 +72,6 @@ a {
   text-decoration: none;
   color: black;
   text-decoration-color: transparent;
-  /* display: block; */
 }
 a:hover {
   text-underline-offset: 0.6rem;
