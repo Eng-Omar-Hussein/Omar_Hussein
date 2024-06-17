@@ -165,7 +165,7 @@ div#Section6 {
 
 .Section3 .content {
   border: black solid 3px;
-  padding: 36px;
+  padding: 36px 1px;
   border-radius: 27px;
 }
 
@@ -335,5 +335,69 @@ footer .container1 {
   .box1,
   .box2 {
     width: 188px;
+  }
+}
+@media (max-width: 700px) {
+  nav {
+    font-size: larger;
+  }
+
+  svg.menu_icon {
+    display: block;
+    font-size: larger;
+  }
+
+  nav ul {
+    direction: rtl;
+    position: absolute;
+    text-align: left;
+    right: 0;
+    top: 65px;
+    background-color: #ffffffd2;
+    border-radius: 5px;
+    border-top-left-radius: 25px;
+    display: block;
+    height: 0px;
+    overflow: hidden;
+    transition: height 1s;
+  }
+
+  nav .container1,
+  svg.menu_icon_remove {
+    display: none;
+    font-size: larger;
+  }
+
+  article .container2 {
+    flex-direction: column;
+  }
+
+  .Section3 h1 {
+    top: 47rem;
+  }
+
+  .box1,
+  .box2 {
+    width: 243px;
+    font-size: small;
+    padding: 21px;
+  }
+  .text{
+    font-size: small;
+  }
+  div#Section3, div#Section4, div#Section5, div#Section6 {
+    min-width: 354px;
+  }
+  footer .container1 {
+    font-size: medium;
+  }
+  .copyrights {
+    font-size: xx-small;
+  }
+  .Section6 .content {
+    font-size: small;
+  }
+  .skills {
+    width: 325px;
   }
 }
