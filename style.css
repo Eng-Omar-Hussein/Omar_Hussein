@@ -2,12 +2,15 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: "Poppins", sans-serif;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -15,10 +18,12 @@ nav {
   text-transform: capitalize;
   padding: 36px;
 }
+
 nav .container1 {
   display: flex;
   justify-content: space-between;
 }
+
 .about,
 .experience,
 .projects,
@@ -27,12 +32,15 @@ nav .container1 {
   padding: 10px 15px;
   text-align: center;
 }
+
 .log {
   font-size: 2rem;
 }
+
 .log:hover {
   cursor: default;
 }
+
 article {
   display: flex;
   align-items: center;
@@ -40,11 +48,13 @@ article {
   flex-direction: column;
   text-transform: capitalize;
 }
+
 article .container2 {
   display: flex;
   width: 100%;
   justify-content: center;
 }
+
 .personal_photo,
 .info {
   display: flex;
@@ -53,6 +63,7 @@ article .container2 {
   flex-direction: column;
   margin: 25px;
 }
+
 img {
   border-radius: 50%;
   border: 3px solid;
@@ -63,33 +74,39 @@ img {
   background-size: cover;
   background-position: top;
 }
+
 h5,
 h2,
 h3 {
   margin: 2px;
 }
+
 a {
   text-decoration: none;
   color: black;
   text-decoration-color: transparent;
 }
+
 a:hover {
   text-underline-offset: 0.6rem;
   text-decoration: underline;
   text-decoration-color: #b5b5b5;
   color: #b5b5b5;
 }
+
 nav ul,
 svg.menu_icon,
 svg.menu_icon_remove {
   display: none;
   margin-top: 10px;
 }
+
 nav li {
   list-style: none;
   padding: 10px 30px;
   transition-duration: 500ms;
 }
+
 button {
   padding: 12px 17px;
   border-radius: 20px;
@@ -100,10 +117,12 @@ button {
   cursor: pointer;
   transition-duration: 1s;
 }
+
 button[type="Contact info"] {
   background-color: black;
   color: white;
 }
+
 button[type="download CV"]:hover,
 button[type="blog"]:hover,
 button[type="GitHub"]:hover {
@@ -111,42 +130,50 @@ button[type="GitHub"]:hover {
   color: white;
   transition-duration: 1s;
 }
+
 .container2 .container4 {
   display: flex;
   width: 70px;
   justify-content: space-between;
 }
+
 .Section3,
 .Section4,
 .Section5,
 .Section6 {
   margin: 20px 2px;
 }
+
 div#Section3,
 div#Section4,
 div#Section5,
 div#Section6 {
   display: flex;
   flex-direction: column;
-  margin: 100px 200px 30px 200px;
+  margin: 84px 5% 30px 5%;
   text-align: justify;
-  max-width: 1621.11px;
-  min-width: 857px;
+  max-width: 1019.11px;
+  min-width: 597px;
 }
+
 .Section3 .about {
   text-align: center;
   display: flex;
   justify-content: center;
+  padding: 18px;
 }
+
 .Section3 .content {
   border: black solid 3px;
   padding: 36px;
   border-radius: 27px;
 }
+
 h1 {
   font-size: 2.5rem;
   text-align: center;
 }
+
 .Section3 h1 {
   border: black solid 3px;
   border-radius: 40px;
@@ -155,6 +182,7 @@ h1 {
   background-color: white;
   top: 33rem;
 }
+
 .Section3 .boxes {
   display: flex;
   flex-wrap: wrap;
@@ -163,39 +191,47 @@ h1 {
   padding: 10px;
   margin: 10px;
 }
+
 .box1,
 .box2 {
   border: black dashed 3px;
   border-radius: 10px;
   padding: 27px;
-  width: 296px;
+  width: 242px;
+  margin: 5px;
 }
+
 .text {
   font-size: 1.2rem;
   padding: 10px;
   margin: 10px;
 }
+
 .skill {
   display: flex;
   margin: 5px;
   padding: 10px;
   width: 132px;
 }
+
 .skill .icon {
   margin-right: 10px;
 }
+
 .skills {
   display: flex;
   flex-wrap: wrap;
   width: 370px;
   justify-content: space-between;
 }
+
 .job h2,
 .proj h2 {
   text-align: center;
   padding: 10px;
   margin: 5px;
 }
+
 .job,
 .proj {
   border: black 2px solid;
@@ -203,18 +239,21 @@ h1 {
   padding: 10px 25px;
   margin: 10px;
 }
+
 .Section4 .content {
   display: flex;
   flex-wrap: wrap;
   max-width: 950px;
   justify-content: center;
 }
+
 .Section5 .content {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1430px;
+  max-width: 1414px;
   justify-content: center;
 }
+
 .poster {
   background-image: url(images/m6.jpg);
   background-size: cover;
@@ -222,16 +261,19 @@ h1 {
   min-width: 275.28px;
   border-radius: 40px;
 }
+
 .access {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
+
 footer {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 footer .container1 {
   display: flex;
   justify-content: center;
@@ -240,23 +282,27 @@ footer .container1 {
   padding: 10px;
   margin: 10px;
 }
+
 .Section6 .content {
   display: flex;
   justify-content: space-around;
   padding: 19px;
-  margin: 20px 166px;
+  margin: 20px 2px;
   border: black solid 2px;
   border-radius: 30px;
   font-size: 1.2rem;
 }
-@media (max-width: 844px) {
+
+@media (max-width: 834px) {
   nav {
     font-size: larger;
   }
+
   svg.menu_icon {
     display: block;
     font-size: larger;
   }
+
   nav ul {
     direction: rtl;
     position: absolute;
@@ -271,15 +317,23 @@ footer .container1 {
     overflow: hidden;
     transition: height 1s;
   }
+
   nav .container1,
   svg.menu_icon_remove {
     display: none;
     font-size: larger;
   }
+
   article .container2 {
     flex-direction: column;
   }
+
   .Section3 h1 {
     top: 47rem;
+  }
+
+  .box1,
+  .box2 {
+    width: 188px;
   }
 }
