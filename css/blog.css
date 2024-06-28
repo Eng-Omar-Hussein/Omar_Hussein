@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    background-color: #eaebef;
+    justify-content: center;
+}
+
+.blog {
+    max-width: 700px;
+    min-width: 300px;
+    background-color: #efeee8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    margin: 39px;
+    border-bottom: solid 2px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: serif;
+    padding: 10px;
+    width: 280px;
+}
+
+.gallery {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery picture img {
+    height: 80px;
+    width: 80px;
+}
+
+.gallery picture {
+    display: inline-block;
+    width: 280px;
+    text-align: center;
+    padding: 10px;
+}
+
+section>picture {
+    padding: 20px;
+    margin: 10px;
+    width: 241px;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+main>article {
+    width: 97%;
+}
+
+footer :first-child {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px -90px;
+}
