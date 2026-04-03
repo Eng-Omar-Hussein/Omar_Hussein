@@ -1,0 +1,205 @@
+{
+  "profile": {
+    "name": "Omar Hussein",
+    "greeting": "Hello, I'm",
+    "title": "Student @ Computer Engineer",
+    "photo": "images/1697714393046.jpg",
+    "cvUrl": "attachments/CV.pdf"
+  },
+  "about": {
+    "tagline": "DevOps & Software Engineering",
+    "bio": "I'm a computer and systems engineering student with a strong focus on DevOps and software engineering. I enjoy designing and building reliable systems across web, AI, and hardware projects using tools like Java, C++, Python, and Git. Right now I'm looking for opportunities where I can learn from experienced teams, ship real features, and add value with a practical, hands-on mindset.",
+    "highlights": [
+      "Computer & Systems Engineering @ Helwan University",
+      "2021–2026 • Bachelors Degree",
+      "DevOps, Cloud, Full-Stack Development"
+    ],
+    "education": {
+      "degree": "Bachelors Degree",
+      "period": "2021-2026",
+      "institution": "Faculty of Engineering Helwan University",
+      "department": "Computer & Systems Engineering"
+    }
+  },
+  "workExperience": [
+    {
+      "company": "Your Company Name",
+      "role": "Role Title",
+      "period": "Start – End",
+      "description": "Brief description of responsibilities and achievements.",
+      "location": "City, Country"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend",
+      "skills": [
+        { "name": "React", "level": 85 },
+        { "name": "Redux", "level": 80 },
+        { "name": "Next.js", "level": 75 },
+        { "name": "Tailwind CSS", "level": 90 },
+        { "name": "Bootstrap", "level": 88 },
+        { "name": "HTML5", "level": 95 },
+        { "name": "CSS3", "level": 90 }
+      ]
+    },
+    {
+      "category": "Backend",
+      "skills": [
+        { "name": "Node.js", "level": 85 },
+        { "name": "Express.js", "level": 82 },
+        { "name": "REST APIs", "level": 88 },
+        { "name": "Socket.io", "level": 75 },
+        { "name": "JWT", "level": 80 },
+        { "name": "Axios", "level": 85 }
+      ]
+    },
+    {
+      "category": "DevOps & Cloud",
+      "skills": [
+        { "name": "AWS", "level": 78 },
+        { "name": "Azure", "level": 72 },
+        { "name": "Docker", "level": 85 },
+        { "name": "Kubernetes", "level": 75 },
+        { "name": "Terraform", "level": 70 },
+        { "name": "Ansible", "level": 72 },
+        { "name": "Jenkins", "level": 78 },
+        { "name": "GitHub Actions", "level": 82 },
+        { "name": "Travis CI", "level": 75 }
+      ]
+    },
+    {
+      "category": "Monitoring",
+      "skills": [
+        { "name": "Prometheus", "level": 80 },
+        { "name": "Grafana", "level": 78 }
+      ]
+    },
+    {
+      "category": "Security",
+      "skills": [
+        { "name": "Penetration Testing", "level": 75 },
+        { "name": "Container Security", "level": 78 },
+        { "name": "Malware Analysis", "level": 70 }
+      ]
+    },
+    {
+      "category": "Programming",
+      "skills": [
+        { "name": "Python", "level": 88 },
+        { "name": "Bash", "level": 80 },
+        { "name": "C++", "level": 85 },
+        { "name": "Java", "level": 85 },
+        { "name": "VHDL", "level": 82 },
+        { "name": "JavaScript", "level": 90 }
+      ]
+    },
+    {
+      "category": "Databases",
+      "skills": [
+        { "name": "MongoDB", "level": 85 },
+        { "name": "MySQL", "level": 88 },
+        { "name": "SQLite", "level": 90 }
+      ]
+    },
+    {
+      "category": "Soft Skills",
+      "skills": [
+        { "name": "Teamwork", "level": 95 },
+        { "name": "Leadership", "level": 88 },
+        { "name": "Problem-Solving", "level": 92 },
+        { "name": "Project Management", "level": 85 },
+        { "name": "Adaptability", "level": 90 },
+        { "name": "Continuous Learning", "level": 95 },
+        { "name": "Self Motivative", "level": 90 }
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate Name",
+      "issuer": "Issuing Organization",
+      "date": "2024",
+      "url": "https://example.com/verify",
+      "badge": "gf"
+    }
+  ],
+  "projects": [
+    {
+      "title": "MIPS Processor",
+      "category": "Hardware",
+      "image": "images/microprocessor.jpeg",
+      "imagePosition": "-65px center",
+      "githubUrl": "https://github.com/Eng-Omar-Hussein/MIPS_based_8bit_RISC_Processor",
+      "blogUrl": "blog/blog1.html"
+    },
+    {
+      "title": "Irrigation System",
+      "category": "Hardware",
+      "image": "images/OIP.jfif",
+      "imagePosition": "-74px center",
+      "githubUrl": "https://github.com/Eng-Omar-Hussein/Irrigation-and-cultivation-system",
+      "blogUrl": "blog/blog5.html"
+    },
+    {
+      "title": "Mobile Price Prediction",
+      "category": "AI",
+      "image": "images/mobile.jfif",
+      "imagePosition": "-74px center",
+      "githubUrl": "https://github.com/Eng-Omar-Hussein/Predict_Mobile_Price",
+      "blogUrl": "blog/blog6.html"
+    },
+    {
+      "title": "Web Project",
+      "category": "Web",
+      "image": "images/web.png",
+      "imagePosition": "-31px center",
+      "githubUrl": "https://github.com/Eng-Omar-Hussein/web_Project",
+      "blogUrl": "blog/blog2.html"
+    },
+    {
+      "title": "Personal Finance Management",
+      "category": "Systems",
+      "image": "images/personalfinanse.png",
+      "imagePosition": "0 top",
+      "githubUrl": "https://github.com/Eng-Omar-Hussein/Personal_Finance_Management",
+      "blogUrl": "blog/blog3.html"
+    },
+    {
+      "title": "Blood Donation Management",
+      "category": "Systems",
+      "image": "images/blooddonation.jpeg",
+      "imagePosition": "0 center",
+      "githubUrl": "https://github.com/Eng-Omar-Hussein/Blood-Donation-Management-System",
+      "blogUrl": "blog/blog4.html"
+    }
+  ],
+  "contact": {
+    "email": "om11ussein@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/omar-hussein-329aa9229/",
+    "github": "https://github.com/Eng-Omar-Hussein"
+  },
+  "social": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/omar-hussein-329aa9229/"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Eng-Omar-Hussein"
+    }
+  ],
+  "nav": {
+    "links": [
+      { "label": "About", "href": "#Section3" },
+      { "label": "Experience", "href": "#Section4" },
+      { "label": "Skills", "href": "#Section5" },
+      { "label": "Certificates", "href": "#Section6" },
+      { "label": "Projects", "href": "#Section7" },
+      { "label": "Contact", "href": "#Section8" }
+    ]
+  },
+  "footer": {
+    "copyright": "copyright \u00a9 2024 Eng. Omar Hussein"
+  }
+}
