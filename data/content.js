@@ -3,7 +3,7 @@ window.CONTENT = {
     "name": "Omar Hussein",
     "greeting": "Hello, I'm",
     "title": "Student @ Computer Engineer",
-    "photo": "images/1697714393046.jpg",
+    "photo": "images/1697714393046.webp",
     "cvUrl": "attachments/CV.pdf"
   },
   "about": {
@@ -166,7 +166,7 @@ window.CONTENT = {
     {
       "title": "MIPS Processor",
       "category": "Hardware",
-      "image": "images/microprocessor.jpeg",
+      "image": "images/microprocessor.webp",
       "imagePosition": "-65px center",
       "githubUrl": "https://github.com/Eng-Omar-Hussein/MIPS_based_8bit_RISC_Processor",
       "blogUrl": "blog/blog1.html"
@@ -174,7 +174,7 @@ window.CONTENT = {
     {
       "title": "Irrigation System",
       "category": "Hardware",
-      "image": "images/OIP.jfif",
+      "image": "images/OIP.webp",
       "imagePosition": "-74px center",
       "githubUrl": "https://github.com/Eng-Omar-Hussein/Irrigation-and-cultivation-system",
       "blogUrl": "blog/blog5.html"
@@ -182,7 +182,7 @@ window.CONTENT = {
     {
       "title": "Mobile Price Prediction",
       "category": "AI",
-      "image": "images/mobile.jfif",
+      "image": "images/mobile.webp",
       "imagePosition": "-74px center",
       "githubUrl": "https://github.com/Eng-Omar-Hussein/Predict_Mobile_Price",
       "blogUrl": "blog/blog6.html"
@@ -190,7 +190,7 @@ window.CONTENT = {
     {
       "title": "Web Project",
       "category": "Web",
-      "image": "images/web.png",
+      "image": "images/web.webp",
       "imagePosition": "-31px center",
       "githubUrl": "https://github.com/Eng-Omar-Hussein/web_Project",
       "blogUrl": "blog/blog2.html"
@@ -198,7 +198,7 @@ window.CONTENT = {
     {
       "title": "Personal Finance Management",
       "category": "Systems",
-      "image": "images/personalfinanse.png",
+      "image": "images/personalfinanse.webp",
       "imagePosition": "0 top",
       "githubUrl": "https://github.com/Eng-Omar-Hussein/Personal_Finance_Management",
       "blogUrl": "blog/blog3.html"
@@ -206,7 +206,7 @@ window.CONTENT = {
     {
       "title": "Blood Donation Management",
       "category": "Systems",
-      "image": "images/blooddonation.jpeg",
+      "image": "images/blooddonation.webp",
       "imagePosition": "0 center",
       "githubUrl": "https://github.com/Eng-Omar-Hussein/Blood-Donation-Management-System",
       "blogUrl": "blog/blog4.html"
